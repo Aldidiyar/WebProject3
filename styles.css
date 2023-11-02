@@ -1,0 +1,52 @@
+.carouselImage
+{
+    height: 500px;
+    width: 1200px;
+    object-fit: cover;
+}
+
+.cardImage
+{
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+}
+body
+{
+    background-color: #9994a6;
+}
+#timer {
+    font-size: 2em;
+    text-align: center;
+}
+.card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card.hovered {
+    transform: scale(1.05);
+  }
+  
+
+
+.container {
+    text-align: center;
+}
+
+.category {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.draggable {
+    cursor: move;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
